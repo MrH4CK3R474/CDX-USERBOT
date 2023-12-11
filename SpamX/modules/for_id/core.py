@@ -17,16 +17,16 @@ from RiZoeLX import Devs
 from RiZoeLX.functions import get_time, delete_reply, Red7_Watch as oops_watch
 
 
-@Client.on_message(filters.user(Sudos) & filters.command(["ping"], prefixes=handler))
+@Client.on_message(filters.user(Sudos) & filters.command(["CDX", "CODEX"], prefixes=handler))
 async def ping(_, e: Message):       
       start = datetime.datetime.now()
       uptime = await get_time((time.time() - start_time))
       pong_msg = await e.reply("**Pong !!**")
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
-      await pong_msg.edit_text(f"☆ {ping_msg} ☆ \n\n ➪ 𝗣ɨɳɠ: `{ms}` ᴍs \n ➪ 𝗨թƬɨмє: `{uptime}` \n ➪ ⩔єяនɨ០ɳ: `{__version__}`")
+      await pong_msg.edit_text(f"☆ 𝙂𝗥ⓞ𝗨𝗣:-[☆𝗖ⓞ𝗗𝜩𝗫☆](https://t.me/TEAM_CDX)")
       
-@Client.on_message(filters.me & filters.command(["ping"], prefixes=handler))
+@Client.on_message(filters.me & filters.command(["CDX", "CODEX"], prefixes=handler))
 async def ping_me(_, e: Message):       
       start = datetime.datetime.now()
       uptime = await get_time((time.time() - start_time))
@@ -37,7 +37,7 @@ async def ping_me(_, e: Message):
         await e.delete()    
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
-      await pong_msg.edit_text(f"☆ {ping_msg} ☆ \n\n ➪ 𝗣ɨɳɠ: `{ms}` ᴍs \n ➪ 𝗨թƬɨмє: `{uptime}` \n ➪ ⩔єяនɨ០ɳ: `{__version__}`")
+      await pong_msg.edit_text(f"☆ 𝙂𝗥ⓞ𝗨𝗣:-[☆𝗖ⓞ𝗗𝜩𝗫☆](https://t.me/TEAM_CDX)")
 
 
 @Client.on_message(filters.user(Owner) & filters.command(["getvars", "getvar"], prefixes=handler))

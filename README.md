@@ -1,11 +1,7 @@
 <p align="center"><a href="https://t.me/@Op_CoDeX"><img src="https://te.legra.ph/file/63531adaa61fd0c91a556.jpg"></a></p>   
   
   <h6 align="center">   
-     <b>• Ⓞթ ѕραм  ϐγ 𝗖𝗼𝗗𝗲𝗫 </b>   
-  
-  
-         
-   [⚡🇨Ⓞ𝗗𝜩🇽⚡](https://t.me/TEAM_CDX)   
+     <b>• [Ⓞթ ѕραм  ϐγ 𝗖𝗼𝗗𝗲𝗫](https://t.me/TEAM_CDX) </b>   
   
   
            ─「 ᎠᎬᏢᏞϴᎽ ϴΝ ᎻᎬᎡϴᏦႮ 」─   

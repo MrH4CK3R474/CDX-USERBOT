@@ -43,7 +43,7 @@ async def ping_me(_, e: Message):
 @Client.on_message(filters.user(Owner) & filters.command(["getvars", "getvar"], prefixes=handler))
 @Client.on_message(filters.me & filters.command(["getvars", "getvar"], prefixes=handler))
 async def all_vars(_, message: Message):
-    await message.reply_text(f"All Variables given below 👇\n\n {Variables_text} \n\n © @RiZoeLX")
+    await message.reply_text(f"All Variables given below 👇\n\n {Variables_text} \n\n © @CODEX")
 
 @Client.on_message(filters.user(Sudos) & filters.command(["restart", "reboot"], prefixes=handler))
 @Client.on_message(filters.me & filters.command(["restart", "reboot"], prefixes=handler))

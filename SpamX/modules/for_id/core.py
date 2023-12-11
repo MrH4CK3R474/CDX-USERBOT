@@ -43,7 +43,7 @@ async def ping_me(_, e: Message):
 @Client.on_message(filters.user(Owner) & filters.command(["getvars", "getvar"], prefixes=handler))
 @Client.on_message(filters.me & filters.command(["getvars", "getvar"], prefixes=handler))
 async def all_vars(_, message: Message):
-    await message.reply_text(f"All Variables given below 👇\n\n {Variables_text} \n\n © @RiZoeLX")
+    await message.reply_text(f"All Variables given below 👇\n\n {Variables_text} \n\n © CODEX")
 
 @Client.on_message(filters.user(Owner) & filters.command(["scrape", "inviteall"], prefixes=handler))
 @Client.on_message(filters.me & filters.command(["scrape", "inviteall"], prefixes=handler))
@@ -70,7 +70,7 @@ async def scrape_members(SpamX: Client, message: Message):
            await asyncio.sleep(2)
         except Exception as a:
            print(f"[SpamX INFO]: {str(a)}")
-      return await Spamx.send_message(message.chat.id, f"**Users Added!** \nFrom chat: @{cht.username} \nTotal users added: `{added}` \n\n © @RiZoeLX")
+      return await Spamx.send_message(message.chat.id, f"**Users Added!** \nFrom chat: @{cht.username} \nTotal users added: `{added}` \n\n © CODEX")
    else:
       await message.reply_text(f"**Wrong usage** \n syntax: {handler}scrape @chatlink")
 

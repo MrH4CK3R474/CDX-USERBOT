@@ -47,7 +47,7 @@ async def SpamX_(SpamX: Client, message: Message):
     Mai = await SpamX.get_me()
     chat = message.chat
     info = await message.reply_text("processing......")
-    spamx_reply = "**__SpamX by RiZoeLX;__** \n\n"
+    spamx_reply = "**__SpamX by CODEX;__** \n\n"
     spamx_reply += "<=======================> \n"
 
     try:

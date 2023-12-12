@@ -16,20 +16,21 @@ try:
    sah = RiZoeL.get_users(OWNER_ID)
    owner_mention = sah.mention
 except:
-   owner_mention = f"[{OWNER_ID}](tg://user?id={OWNER_ID})"
+   owner_mention = f"[𝗞𝚲𝐌𝜩𝜩𝐍𝚲](tg://BRANDED_KAMEENAA)"
 
 class Alive:
      Pic = pic
      
      msg = f"""
-**[☆𝗖ⓞ𝗗𝜩𝗫☆](https://t.me/TEAM_CDX)
+**[☆ 🇨Ⓞ𝗗𝜩🇽 ☆](https://t.me/TEAM_CDX)
 ◈ •━━━━━★✦♡✦★━━━━━• ◈
-➪ **𝗠𝚲𝗦𝗧𝜩𝗥:**[☆𝗞𝚲𝐌𝜩𝜩𝐍𝚲☆](https://t.me/BRANDED_KAMEENAA)
-◈ •━━━━━━━★━━━━━━━• ◈ 
-➪ **𝗗єѵʅ𝕆թєƦ:**[☆𝚲𝗟Ⓞ𝗡𝜩☆](https://t.me/reallyaloneboy_01)
-➪ **𝗣ƴƬнοи ⩔єяនɨ០ɳ:** `{platform.python_version()}`
-➪ **𝗖ⓞ𝗗𝜩 ⩔єяនɨ០ɳ:** `{__version__}`
-➪ **𝗣ƴяο ⩔єяនɨ០ɳ:** `{pyro_vr}`
+☆ **𝗠𝚲𝗦𝗧𝜩𝗥:-**[𝗞𝚲𝐌𝜩𝜩𝐍𝚲](https://t.me/BRANDED_KAMEENAA)
+◈ •━━━━━━━★━━━━━━━• ◈
+➪ **𝗣ƴƬнοи ⩔єяនɨ០ɳ:-** `{platform.python_version()}`
+
+➪ **𝗖ⓞ𝗗𝜩 ⩔єяនɨ០ɳ:-** `{__version__}`
+
+➪ **𝗣ƴяο ⩔єяនɨ០ɳ:-** `{pyro_vr}`
 ◈ •━━━━━★✦♡✦★━━━━━• ◈
      """
 

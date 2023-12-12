@@ -10,7 +10,7 @@ __version__ = __version__
 
 ping_msg = PING_MSG if PING_MSG else "🇨Ⓞ𝗗𝜩🇽"
 pic = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/0d7c524a3fe2798398b3a.jpg"
-amsg = ALIVE_MSG if ALIVE_MSG else "𝐎𝐏 ѕραм - by 𝗖ⓞ𝗗𝜩𝗫"
+amsg = ALIVE_MSG if ALIVE_MSG else ""
 
 try:
    sah = RiZoeL.get_users(OWNER_ID)

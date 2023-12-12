@@ -22,7 +22,7 @@ class Alive:
      Pic = pic
      
      msg = f"""
-**[★🇨Ⓞ𝗗𝜩🇽★](https://t.me/TEAM_CDX)
+**[★ 🇨Ⓞ𝗗𝜩🇽 ★](https://t.me/TEAM_CDX)
 ☆━━━━━━━★✦★✦★━━━━━━━☆
 ★ **𝗠𝚲𝗦𝗧𝜩𝗥:-**[☆ 𝗞𝚲𝐌𝜩𝜩𝐍𝚲 ☆](https://t.me/BRANDED_KAMEENAA)
    ☆━━━━━━━★━━━━━━━☆ 

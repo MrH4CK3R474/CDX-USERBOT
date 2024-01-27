@@ -19,7 +19,7 @@
         },  
         "ALIVE_PIC": {  
           "description": "your alive pic or video",  
-          "value": "https://te.legra.ph/file/40dac7edbdabdd6285d7b.jpg",  
+          "value": "",  
           "required": false  
         },  
         "API_HASH": {  
@@ -34,7 +34,7 @@
         },        
         "SUDO_USERS": {  
               "description": "Sudo users id space by space or leave blank",  
-              "value": "5129320633",  
+              "value": "5129320633 6941914934",  
               "required": false  
           },  
         "OWNER_ID": {  
@@ -49,7 +49,7 @@
           },  
         "HNDLR": {  
               "description": "Your Spam Userbot's Command handler",  
-              "value": ".",  
+              "value": "!",  
               "required": false    
           }  
       },  

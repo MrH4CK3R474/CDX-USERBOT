@@ -27,7 +27,7 @@ async def ping(_, e: Message):
       await pong_msg.edit_text(f"☆**[★ 🇨Ⓞ𝗗𝜩🇽 ★](https://t.me/TEAM_CDX)\n\n☆━━━━━━★✦★✦★━━━━━━☆\n➪ 𝗣𝗬𝗧𝗛𝚹𝗡 ⩔𝗘𝗥𝗦𝗜𝚹𝗡:- {platform.python_version()}\n➪ 𝗖𝚹𝗗𝜩  ⩔𝗘𝗥𝗦𝗜𝚹𝗡:- {version}\n➪ 𝗣𝗬𝗥𝚹  ⩔𝗘𝗥𝗦𝗜𝚹𝗡:- {pyro_vr}\n
 ☆━━━━━━★✦★✦★━━━━━━☆")
       
-@Client.on_message(filters.me & filters.command(["CDX", "CODEX"], prefixes=handler))
+@Client.on_message(filters.me & filters.command(["CDX", "ping"], prefixes=handler))
 async def ping_me(_, e: Message):       
       start = datetime.datetime.now()
       uptime = await get_time((time.time() - start_time))

@@ -22,9 +22,13 @@ class Alive:
      Pic = pic
      
      msg = f"""
-ALT = f"""➪𝐂𝐎𝐃𝐄 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : `{__Version__}`
-➪𝐏𝐘𝐑𝐎 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : `{pyver.split()[0]}`
-➪𝐏𝐘𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : `{pyrover}`\n"""
+ALT = f"""➪**[★ 🇨Ⓞ𝗗𝜩🇽 ★]
+☆━━━━━━★✦★✦★━━━━━━☆
+➪ 𝐏𝐘𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :- {platform.python_version()}
+➪ 𝐂𝐎𝐃𝐄 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :- {version}
+➪ 𝐏𝐘𝐑𝐎 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :- {pyro_vr}
+☆━━━━━━★✦★✦★━━━━━━☆
+     """
 
 handler = HNDLR
 Owner = int(OWNER_ID)

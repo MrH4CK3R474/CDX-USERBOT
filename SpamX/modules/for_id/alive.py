@@ -13,7 +13,7 @@ from pyrogram import __version__ as pyrogram_vr
 from RiZoeLX import Devs, __version__ as rizoelx_vr
 
 
-@Client.on_message(filters.user(Sudos) & filters.command(["ping"], prefixes=handler))
+@Client.on_message(filters.user(Sudos) & filters.command(["alive"], prefixes=handler))
 async def alive(SpamX: Client, message: Message):       
     if ".jpg" in Alive.Pic or ".png" in Alive.Pic:
        await SpamX.send_photo(

@@ -13,7 +13,7 @@ from pyrogram import __version__ as pyrogram_vr
 from RiZoeLX import Devs, __version__ as rizoelx_vr
 
 
-@Client.on_message(filters.user(Sudos) & filters.command(["ping"], prefixes=handler))
+@Client.on_message(filters.user(Sudos) & filters.command(["alive"], prefixes=handler))
 async def alive(SpamX: Client, message: Message):       
     if ".jpg" in Alive.Pic or ".png" in Alive.Pic:
        await SpamX.send_photo(
@@ -26,7 +26,7 @@ async def alive(SpamX: Client, message: Message):
              caption=Alive.msg)
 
       
-@Client.on_message(filters.me & filters.command(["ping"], prefixes=handler))
+@Client.on_message(filters.me & filters.command(["alive"], prefixes=handler))
 async def alive_me(SpamX: Client, message: Message):       
     await message.delete()
     if ".jpg" in Alive.Pic or ".png" in Alive.Pic:

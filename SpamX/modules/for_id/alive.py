@@ -26,7 +26,7 @@ async def alive(SpamX: Client, message: Message):
              caption=Alive.msg)
 
       
-@Client.on_message(filters.me & filters.command(["ping"], prefixes=handler))
+@Client.on_message(filters.me & filters.command(["alive"], prefixes=handler))
 async def alive_me(SpamX: Client, message: Message):       
     await message.delete()
     if ".jpg" in Alive.Pic or ".png" in Alive.Pic:

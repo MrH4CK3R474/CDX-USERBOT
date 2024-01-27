@@ -22,15 +22,10 @@ class Alive:
      Pic = pic
      
      msg = f"""
-**[★ 🇨Ⓞ𝗗𝜩🇽 ★](https://t.me/TEAM_CDX)
-☆━━━━━━★✦★✦★━━━━━━☆
-★ **𝗠𝚲𝗦𝗧𝜩𝗥:-** 𝗞𝚲𝐌𝜩𝜩𝐍𝚲 
-  ☆━━━━━━━★━━━━━━━☆ 
-➪ **𝗣𝗬𝗧𝗛𝚹𝗡 ⩔𝗘𝗥𝗦𝗜𝚹𝗡:-** `{platform.python_version()}`
-➪ **𝗖𝚹𝗗𝜩  ⩔𝗘𝗥𝗦𝗜𝚹𝗡:-** `{__version__}`
-➪ **𝗣𝗬𝗥𝚹  ⩔𝗘𝗥𝗦𝗜𝚹𝗡:-** `{pyro_vr}`
-☆━━━━━━★✦★✦★━━━━━━☆
-     """
+ALT = f"""
+™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 ᴠᴇʀsɪᴏɴ : `{__Version__}`
+➪𝗣ʏᴛʜᴏɴ 𝗩ᴇʀsɪᴏɴ : `{pyver.split()[0]}`
+➪𝗣ʏʀᴏɢʀᴀᴍ 𝗩ᴇʀsɪᴏɴ : `{pyrover}`\n"""
 
 handler = HNDLR
 Owner = int(OWNER_ID)

@@ -9,7 +9,7 @@ __version__ = __version__
 
 
 ping_msg = PING_MSG if PING_MSG else "🇨Ⓞ𝗗𝜩🇽"
-pic = ALIVE_PIC if ALIVE_PIC else ""
+pic = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/a04b4a2e69f81f60c4599.jpg"
 amsg = ALIVE_MSG if ALIVE_MSG else ""
 
 try:
@@ -22,10 +22,9 @@ class Alive:
      Pic = pic
      
      msg = f"""
-ALT = f"""
-™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 ᴠᴇʀsɪᴏɴ : `{__Version__}`
-➪𝗣ʏᴛʜᴏɴ 𝗩ᴇʀsɪᴏɴ : `{pyver.split()[0]}`
-➪𝗣ʏʀᴏɢʀᴀᴍ 𝗩ᴇʀsɪᴏɴ : `{pyrover}`\n"""
+ALT = f"""𝐂𝐎𝐃𝐄 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : `{__Version__}`
+➪𝐏𝐘𝐑𝐎 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : `{pyver.split()[0]}`
+➪𝐏𝐘𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : `{pyrover}`\n"""
 
 handler = HNDLR
 Owner = int(OWNER_ID)

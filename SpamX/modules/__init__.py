@@ -24,7 +24,7 @@ class Alive:
      msg = f"""
 **[★ 🇨Ⓞ𝗗𝜩🇽 ★](https://t.me/TEAM_CDX)
 ☆━━━━━━★✦★✦★━━━━━━☆
-★ **𝗠𝚲𝗦𝗧𝜩𝗥:-**[☆ 𝗞𝚲𝐌𝜩𝜩𝐍𝚲 ☆](https://t.me/BRANDED_KAMEENAA)
+★ **𝗠𝚲𝗦𝗧𝜩𝗥:-** 𝗞𝚲𝐌𝜩𝜩𝐍𝚲 
   ☆━━━━━━━★━━━━━━━☆ 
 ➪ **𝗣𝗬𝗧𝗛𝚹𝗡 ⩔𝗘𝗥𝗦𝗜𝚹𝗡:-** `{platform.python_version()}`
 ➪ **𝗖𝚹𝗗𝜩  ⩔𝗘𝗥𝗦𝗜𝚹𝗡:-** `{__version__}`

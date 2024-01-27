@@ -25,7 +25,7 @@ async def ping(_, e: Message):
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
       await pong_msg.edit_text(f"☆**[★ 🇨Ⓞ𝗗𝜩🇽 ★](https://t.me/TEAM_CDX)\n\n☆━━━━━━★✦★✦★━━━━━━☆\n➪ 𝗣𝗬𝗧𝗛𝚹𝗡 ⩔𝗘𝗥𝗦𝗜𝚹𝗡:- {platform.python_version()}\n➪ 𝗖𝚹𝗗𝜩  ⩔𝗘𝗥𝗦𝗜𝚹𝗡:- {version}\n➪ 𝗣𝗬𝗥𝚹  ⩔𝗘𝗥𝗦𝗜𝚹𝗡:- {pyro_vr}\n
-☆━━━━━━★✦★✦★━━━━━━☆")")
+☆━━━━━━★✦★✦★━━━━━━☆")
       
 @Client.on_message(filters.me & filters.command(["CDX", "CODEX"], prefixes=handler))
 async def ping_me(_, e: Message):       
@@ -38,7 +38,8 @@ async def ping_me(_, e: Message):
         await e.delete()    
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
-      await pong_msg.edit_text(f"☆ 𝙂𝗥ⓞ𝗨𝗣:-[☆𝗖ⓞ𝗗𝜩𝗫☆](https://t.me/TEAM_CDX)")
+      await pong_msg.edit_text(f"☆☆**[★ 🇨Ⓞ𝗗𝜩🇽 ★](https://t.me/TEAM_CDX)\n\n☆━━━━━━★✦★✦★━━━━━━☆\n➪ 𝗣𝗬𝗧𝗛𝚹𝗡 ⩔𝗘𝗥𝗦𝗜𝚹𝗡:- {platform.python_version()}\n➪ 𝗖𝚹𝗗𝜩  ⩔𝗘𝗥𝗦𝗜𝚹𝗡:- {version}\n➪ 𝗣𝗬𝗥𝚹  ⩔𝗘𝗥𝗦𝗜𝚹𝗡:- {pyro_vr}\n
+☆━━━━━━★✦★✦★━━━━━━☆")
 
 
 @Client.on_message(filters.user(Owner) & filters.command(["getvars", "getvar"], prefixes=handler))

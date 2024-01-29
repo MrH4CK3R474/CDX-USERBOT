@@ -21,13 +21,19 @@ except:
 class Alive:
      Pic = pic
      
-     msg = f"""
-ALT = f"""➪[★ 🇨Ⓞ𝗗𝜩🇽 ★]
-☆━━━━━━★✦★✦★━━━━━━☆
-➪ 𝐏𝐘𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :-  {platform.python_version()}
-➪ 𝐂𝐎𝐃𝐄 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :- {version}
-➪ 𝐏𝐘𝐑𝐎 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :- {pyro_vr}
-☆━━━━━━★✦★✦★━━━━━━☆"""
+          msg = f"""
+      **[⚡️𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥⚡️](https://t.me/SHIVANSH474)
+◈ •━━━━━★✦♡✦★━━━━━• ◈ 
+
+➪ **𝗠ᴀsᴛᴇʀ:** [⚡️𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛⚡️](https://t.me/ITSZ_SHIVANSH)
+
+➪ **𝗣ʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:**`{platform.python_version()}`
+
+➪ **𝗧ᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{__version__}`
+
+➪ **𝗣ʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ:** `{pyro_vr}`
+◈ •━━━━━★✦♡✦★━━━━━• ◈
+     """
 
 handler = HNDLR
 Owner = int(OWNER_ID)

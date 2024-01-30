@@ -21,8 +21,7 @@ except:
 class Alive:
      Pic = pic
      
-          msg = f"""
-      **[⚡️🇨Ⓞ𝗗𝜩🇽⚡️](https://t.me/TEAM_CDX)
+          msg = f"""[⚡️🇨Ⓞ𝗗𝜩🇽⚡️](https://t.me/TEAM_CDX)
 ◈ •━━━━━★✦♡✦★━━━━━• ◈ 
 
 ➪ **𝗠ᴀsᴛᴇʀ:**`{mention}

@@ -22,10 +22,10 @@ class Alive:
      Pic = pic
      
           msg = f"""
-      **[⚡️𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥⚡️](https://t.me/SHIVANSH474)
+      **[⚡️🇨Ⓞ𝗗𝜩🇽⚡️](https://t.me/TEAM_CDX)
 ◈ •━━━━━★✦♡✦★━━━━━• ◈ 
 
-➪ **𝗠ᴀsᴛᴇʀ:** [⚡️𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛⚡️](https://t.me/ITSZ_SHIVANSH)
+➪ **𝗠ᴀsᴛᴇʀ:**`{mention}
 
 ➪ **𝗣ʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:**`{platform.python_version()}`
 

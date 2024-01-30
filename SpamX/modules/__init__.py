@@ -16,12 +16,13 @@ try:
    sah = RiZoeL.get_users(OWNER_ID)
    owner_mention = sah.mention
 except:
-   owner_mention = f"[𝗞𝚲𝐌𝜩𝜩𝐍𝚲](tg://BRANDED_KAMEENAA)"
+      owner_mention = f"[{OWNER_ID}](tg://user?id={OWNER_ID})"
 
 class Alive:
      Pic = pic
      
-          msg = f"""[⚡️🇨Ⓞ𝗗𝜩🇽⚡️](https://t.me/TEAM_CDX)
+ msg = f"""
+      **[🇨Ⓞ𝗗𝜩🇽](https://t.me/TEAM_CDX)
 ◈ •━━━━━★✦♡✦★━━━━━• ◈ 
 
 ➪ **𝗠ᴀsᴛᴇʀ:**`{mention}
